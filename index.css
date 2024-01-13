@@ -1,0 +1,85 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    background: url(./images/login.jpg);
+    background-size: cover;
+}
+
+.login-box{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+    background: none;
+}
+
+h1{
+    width: 300px;
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    background: none;
+}
+
+.text-box{
+    width: 300px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-bottom: 1px solid #4caf50;
+    background: none;
+}
+
+.PassWord{
+    width: 300px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    border-bottom: 1px solid #4caf50;
+    background: none;
+    margin-bottom: 25px;
+}
+
+.text-box input{
+    border: none;
+    outline: none;
+    color: wheat;
+    /* width: 200px;    */
+    background: none;
+    font-size: 14px;
+}
+
+.text-box i{
+    background: none;
+}
+
+.PassWord input{
+    border: none;
+    outline: none;
+    color: wheat;
+    /* width: 200px;    */
+    background: none;
+    font-size: 14px;
+}
+
+.PassWord i{
+    background: none;
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid #4caf50;
+    color: wheat;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
